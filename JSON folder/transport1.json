@@ -1,0 +1,16 @@
+{
+    "city": "Krakow",
+    "total_routes": 128,
+    "average_ticket_price_in_PLN": 4.50,
+    "ticket_inspections": true,
+    "night_transport_available": true,
+    "main_modes": ["Tram", "Bus", "Train", "Taxi", "Scooter", "Bike"],
+    "peak_hours": {
+        "morning": "7:00-9:00",
+        "evening": "16:00-18:00"
+    },
+    "contact_info": {
+        "hotline": "123-456-789",
+        "website": "https://transport.krakow.pl"
+    }
+}
