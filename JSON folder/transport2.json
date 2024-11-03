@@ -1,0 +1,44 @@
+[
+    {
+        "type": "Bus",
+        "routes": ["189", "139", "159"],
+        "fare": 4,
+        "operating_hours": "05:00 - 23:00",
+        "is_accessible": true
+    },
+    {
+        "type": "Tram",
+        "routes": ["1", "2", "3", "4"],
+        "fare": 4,
+        "operating_hours": "05:00 - 23:00",
+        "is_accessible": true
+    },
+    {
+        "type": "Taxi",
+        "company": "Krakow Taxis",
+        "base_fare": 8.00,
+        "is_available": true,
+        "is_fast": true
+    },
+    {
+        "type": "Train",
+        "routes": ["Krakow Główny - Katowice", "Krakow Główny - Warsaw"],
+        "price_in_PLN": 45,
+        "travel_time": "2 hours",
+        "is_fast": true
+    },
+    {
+        "type": "Scooter",
+        "company": "Lime",
+        "price_per_minute_in_PLN": 1,
+        "is_available": true,
+        "is_fast": true
+    },
+    {
+        "type": "Bike",
+        "company": "Bike Krakow",
+        "daily_rental_fee": 25,
+        "is_available": true,
+        "is_fast": true
+    }
+]
