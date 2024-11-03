@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicTransportInKrakow>
+    <Transport>
+        <Name type="vehicle" mode="rail">Tram</Name>
+        <Route area="urban" scope="citywide">Around the city</Route>
+        <Frequency time="daytime" interval="5-10 minutes">Every 5-10 minutes</Frequency>
+        <TicketPrice currency="PLN" priceRange="low">4 PLN</TicketPrice>
+    </Transport>
+
+    <Transport>
+        <Name type="vehicle" mode="road">Bus</Name>
+        <Route area="urban and suburban" scope="city and suburbs">Around the city and suburbs</Route>
+        <Frequency time="daytime" interval="10-20 minutes">Every 10-20 minutes</Frequency>
+        <TicketPrice currency="PLN" priceRange="low">4 PLN</TicketPrice>
+    </Transport>
+
+    <Transport>
+        <Name type="vehicle" mode="rail">Train</Name>
+        <Route area="regional" scope="city and nearby cities">Suburbs and nearby cities</Route>
+        <Frequency time="daytime" interval="15-30 minutes">Every 15-30 minutes</Frequency>
+        <TicketPrice currency="PLN" priceRange="variable">Depends on the destination</TicketPrice>
+    </Transport>
+
+    <Transport>
+        <Name type="service" mode="road">Taxi</Name>
+        <Route area="urban" scope="citywide">Around the city</Route>
+        <Availability status="on demand" timing="24/7">On demand</Availability>
+        <BaseFare currency="PLN" additionalCharge="per km">6 PLN + per km charge</BaseFare>
+    </Transport>
+
+    <Transport>
+        <Name type="rental" mode="electric">Scooter</Name>
+        <Route area="urban" scope="citywide">Around the city</Route>
+        <RentalDuration price="10 PLN" duration="10 minutes">10 PLN for 10 minutes</RentalDuration>
+        <Availability status="available" timing="24/7">Available 24/7</Availability>
+    </Transport>
+
+    <Transport>
+        <Name type="rental" mode="manual">Bike</Name>
+        <Route area="urban" scope="city center and parks">City center and parks</Route>
+        <RentalDuration price="free" duration="20 minutes">Free for first 20 minutes</RentalDuration>
+        <Availability status="available" timing="24/7">Available 24/7</Availability>
+    </Transport>
+</PublicTransportInKrakow>
