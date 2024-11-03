@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicTransportInKrakow>
+    <Transport>
+        <Name>Tram</Name>
+        <Route>Around the city</Route>
+        <Frequency>Every 5-10 minutes</Frequency>
+        <TicketPrice>4 PLN</TicketPrice>
+    </Transport>
+
+    <Transport>
+        <Name>Bus</Name>
+        <Route>Around the city and suburbs</Route>
+        <Frequency>Every 10-20 minutes</Frequency>
+        <TicketPrice>4 PLN</TicketPrice>
+    </Transport>
+
+    <Transport>
+        <Name>Train</Name>
+        <Route>Suburbs and nearby cities</Route>
+        <Frequency>Every 15-30 minutes</Frequency>
+        <TicketPrice>Depends on the destination</TicketPrice>
+    </Transport>
+
+    <Transport>
+        <Name>Taxi</Name>
+        <Route>Around the city</Route>
+        <Availability>On demand</Availability>
+        <BaseFare>6 PLN + per km charge</BaseFare>
+    </Transport>
+
+    <Transport>
+        <Name>Scooter</Name>
+        <Route>Around the city</Route>
+        <RentalDuration>10 PLN for 10 minutes</RentalDuration>
+        <Availability>Available 24/7</Availability>
+    </Transport>
+
+    <Transport>
+        <Name>Bike</Name>
+        <Route>City center and parks</Route>
+        <RentalDuration>Free for first 20 minutes</RentalDuration>
+        <Availability>Available 24/7</Availability>
+    </Transport>
+</PublicTransportInKrakow>
