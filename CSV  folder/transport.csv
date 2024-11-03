@@ -1,0 +1,6 @@
+Name,Price,Route,Payment check
+Train,Depends,Around the country,true
+Tram,4-6 PLN,Around the city,true
+Bus,4-6 PLN,Around the city,true
+Taxi,Depends,Around the city,true
+Scooter,From 10 PLN,Around the city,true
